@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
+#include <stdbool.h>
 
 typedef uint64_t u64;
 typedef uint32_t u32;
@@ -17,9 +18,6 @@ typedef int8_t i8;
 typedef float f32;
 typedef double f64;
 
-typedef u32 bool;
-#define true 1
-#define false 0
 #define BOOL_FMT(x) x ? "true" : "false"
 
 #ifdef DEBUG
